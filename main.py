@@ -35,7 +35,7 @@ conversation_prompt = ChatPromptTemplate(
 )
 
 # Set Streamlit page configuration
-st.set_page_config(page_title='Magic NVC helper!', page_icon=':robot:')
+st.set_page_config(page_title='AI CBT/DBT Mentor!', page_icon=':robot:')
 
 
 def load_chain():
