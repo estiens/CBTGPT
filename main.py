@@ -70,8 +70,7 @@ if "user_input" not in st.session_state:
 with st.sidebar:
   col1, col2 = st.columns(2)
   with col1:
-    st.markdown("**NVC AI MentorBot**")
-    st.markdown("(Name: Nambo)")
+    st.markdown("**CBT/DBT PractiveBot**")
 
   with col2:
     icon = Image.open('icon.png')
@@ -109,7 +108,6 @@ def new_chat():
 if st.button("New Chat"):
     new_chat()
 
-st.markdown('## Welcome to the Magic NVC helper!')
 input_placeholder = st.empty()
 input_label = """What thought would you like to look at or what situation do you need to think through what skills are appropriate for?"""
 with input_placeholder:
